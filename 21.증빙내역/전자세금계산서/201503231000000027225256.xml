@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?><TaxInvoice xmlns="urn:kr:or:kec:standard:Tax:ReusableAggregateBusinessInformationEntitySchemaModule:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:kr:or:kec:standard:Tax:ReusableAggregateBusinessInformationEntitySchemaModule:1:0 http://www.kec.or.kr/standard/Tax/TaxInvoiceSchemaModule_1.0.xsd"><ExchangedDocument><ID/><IssueDateTime>20150323161458</IssueDateTime><ReferencedDocument><ID/></ReferencedDocument></ExchangedDocument><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:Transform Algorithm="http://www.w3.org/TR/1999/REC-xpath-19991116"><ds:XPath xmlns:ds="http://www.w3.org/2000/09/xmldsig#">not(self::*[name() = 'TaxInvoice'] | ancestor-or-self::*[name() = 'ExchangedDocument'] | ancestor-or-self::ds:Signature)</ds:XPath></ds:Transform>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>+lsU65yS8a64l9Z379ufa5my0wBw6V29Wrga/7oZ1CA=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>FxuruSDy+mVofT9e3/7Y5uXjUk7MYm5dZFf9B9Vr3xDSXXwb5PD9mHFPCXfhn3K9YwsZAkpXcAUO
+t1mjTO9hGWRhq26393V9MLfD9ez47x9GEr64I4EpeuhtMYJlM8rIah4M8Q2x8r6Q8FmM2BwtWA91
+vCpyPZ7fIhXIsNb45hdbX+f7/AaHiCnxnCiAOgmmLbiXUEpTSiR3gWojRCh7cdb8OiWXXHypOj0E
+r5mR/VpA6iNpAdVnrmQ7hMn3qmPP43YHgUEZFHKXux1qd1kpXRGye2a5jyL0chtCRvLm+yL8FwKI
+cojvHgGPUSEjtmIr9BBgVKen+He55Wou0GQMIg==</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:X509Data>
+<ds:X509Certificate>MIIFsTCCBJmgAwIBAgIEGDPbrjANBgkqhkiG9w0BAQsFADBSMQswCQYDVQQGEwJrcjEQMA4GA1UE
+CgwHeWVzc2lnbjEVMBMGA1UECwwMQWNjcmVkaXRlZENBMRowGAYDVQQDDBF5ZXNzaWduQ0EgQ2xh
+c3MgMTAeFw0xNTAxMTUxNTAwMDBaFw0xNjAxMTYxNDU5NTlaMIGEMQswCQYDVQQGEwJrcjEQMA4G
+A1UECgwHeWVzc2lnbjETMBEGA1UECwwKeFVzZTRFc2VybzEMMAoGA1UECwwDSUJLMQ4wDAYDVQQL
+DAUzNTA3OTEwMC4GA1UEAwwn7Lu064S3VFJFRSgzNTA3OSkwMDAzNjg4MjAxMjAxMTAxMjUzOTU0
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkxELPkqDaGEK0qK/axsY+zUdkq3yrX+E
+4hyDiYrV5MffwTL6s/srATnAnHBj5HUMlbe/yhQbCwg3VQhsQ/nyrzSzGD6yHkIRMGIjyEybHD/8
+1tN8css/BSdEpaqSdhoz6IS2cxmoS5ilbcdJachtMW2YAWGV6WnqBWdOOGjZpsHDoebCMo7dttIZ
+1oMxNpXfoaKHibjQecYOmwqC6Tw0e6B85GwIUP3Fco7xpnkEvjWfDp6er3Hp214zX5V7PYCW+JhH
+rKr+MYqZlIKp8aGg0uNwazvOPV0ibUdolbXG28lL3sfL6YE1LAJAZj2Cfe1Y2syPQ7jYBOvA5keo
+GYFgRwIDAQABo4ICWjCCAlYwgY8GA1UdIwSBhzCBhIAUUgQyn4+dIXK6+jOYqGF+JzMkjV+haKRm
+MGQxCzAJBgNVBAYTAktSMQ0wCwYDVQQKDARLSVNBMS4wLAYDVQQLDCVLb3JlYSBDZXJ0aWZpY2F0
+aW9uIEF1dGhvcml0eSBDZW50cmFsMRYwFAYDVQQDDA1LSVNBIFJvb3RDQSA0ggIQAzAdBgNVHQ4E
+FgQUjDk2VsvNjlp+PTunVKU/wIWBRbwwDgYDVR0PAQH/BAQDAgbAMHoGA1UdIAEB/wRwMG4wbAYK
+KoMajJpFAQEGCDBeMC4GCCsGAQUFBwICMCIeIMd0ACDHeMmdwRyylAAgrPXHeMd4yZ3BHAAgx4Wy
+yLLkMCwGCCsGAQUFBwIBFiBodHRwOi8vd3d3Lnllc3NpZ24ub3Iua3IvY3BzLmh0bTBpBgNVHREE
+YjBgoF4GCSqDGoyaRAoBAaBRME8MCuy7tOuEt1RSRUUwQTA/BgoqgxqMmkQKAQEBMDEwCwYJYIZI
+AWUDBAIBoCIEIDOOJfCr9An1mVY/OM+P47lcGvEjXn2c+df7Z+QPbAijMHIGA1UdHwRrMGkwZ6Bl
+oGOGYWxkYXA6Ly9kcy55ZXNzaWduLm9yLmtyOjM4OS9vdT1kcDRwNDg2MjUsb3U9QWNjcmVkaXRl
+ZENBLG89eWVzc2lnbixjPWtyP2NlcnRpZmljYXRlUmV2b2NhdGlvbkxpc3QwOAYIKwYBBQUHAQEE
+LDAqMCgGCCsGAQUFBzABhhxodHRwOi8vb2NzcC55ZXNzaWduLm9yZzo0NjEyMA0GCSqGSIb3DQEB
+CwUAA4IBAQBZJuuTDx0W+u1ZhpF/vRNyQm/k/ORWyUxnSg8azgy0sujSIkXjNgrIaF5SmAET8CPx
+SPEOxy2wEq7fTjlC+VtHytUxbqf6DqTfI/twuMlQKAapv5+o4y3nE9j5eYrgYBcDx9olRknUov1n
+ceD0eIoVmRZ+PZ708Dw5bbZzXcVggMzTij28GeVns6PSeHtYxLVaRHl9tUmgzCGV51XFQWHLzToY
+JD4uz8U/M2UWlFW29V2KqsNfYAgmG14yD4aC/icPT33S2APzyXH5uNcEnVCSdKC6T+4eLrsmk8Nk
+1kV1IEQLBTQnhFR0lhsq0B77LGvuKa15Hj3FDM4s8msoEZdN</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature><TaxInvoiceDocument><IssueID>201503231000000027225256</IssueID><TypeCode>0101</TypeCode><IssueDateTime>20150323</IssueDateTime><PurposeCode>02</PurposeCode></TaxInvoiceDocument><TaxInvoiceTradeSettlement><InvoicerParty><ID>1400761380</ID><TypeCode>도매</TypeCode><NameText>컴넷TREE</NameText><ClassificationCode>컴퓨터　및　주변기기</ClassificationCode><SpecifiedOrganization><TaxRegistrationID>0</TaxRegistrationID></SpecifiedOrganization><SpecifiedPerson><NameText>김영일</NameText></SpecifiedPerson><DefinedContact><URICommunication>zer5n2@naver.com</URICommunication></DefinedContact><SpecifiedAddress><LineOneText>경기도 시흥시 정왕천로439번길 1</LineOneText></SpecifiedAddress></InvoicerParty><InvoiceeParty><ID>1348735399</ID><TypeCode>서비스</TypeCode><NameText>(주)인포솔루션</NameText><ClassificationCode>소프트웨어개발및공급업,컨설팅업</ClassificationCode><SpecifiedOrganization><TaxRegistrationID>0</TaxRegistrationID><BusinessTypeCode>01</BusinessTypeCode></SpecifiedOrganization><SpecifiedPerson><NameText>이용규</NameText></SpecifiedPerson><PrimaryDefinedContact><URICommunication>jlake@infosolution.co.kr</URICommunication></PrimaryDefinedContact><SecondaryDefinedContact/><SpecifiedAddress><LineOneText>경기도 안산시 단원구 광덕대로 155,706(고잔동 퍼스트빌)</LineOneText></SpecifiedAddress></InvoiceeParty><SpecifiedPaymentMeans><TypeCode>10</TypeCode></SpecifiedPaymentMeans><SpecifiedPaymentMeans><TypeCode>20</TypeCode></SpecifiedPaymentMeans><SpecifiedPaymentMeans><TypeCode>30</TypeCode></SpecifiedPaymentMeans><SpecifiedPaymentMeans><TypeCode>40</TypeCode></SpecifiedPaymentMeans><SpecifiedMonetarySummation><ChargeTotalAmount>1560000</ChargeTotalAmount><TaxTotalAmount>156000</TaxTotalAmount><GrandTotalAmount>1716000</GrandTotalAmount></SpecifiedMonetarySummation></TaxInvoiceTradeSettlement><TaxInvoiceTradeLineItem><SequenceNumeric>1</SequenceNumeric><InvoiceAmount>1560000</InvoiceAmount><ChargeableUnitQuantity>1</ChargeableUnitQuantity><NameText>DB서버 시스템</NameText><PurchaseExpiryDateTime>20150320</PurchaseExpiryDateTime><TotalTax><CalculatedAmount>156000</CalculatedAmount></TotalTax><UnitPrice><UnitAmount>1560000</UnitAmount></UnitPrice></TaxInvoiceTradeLineItem></TaxInvoice>
